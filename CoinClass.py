@@ -24,5 +24,5 @@ class Coin:
     # The get_sideup method returns the value
     # referenced by sideup.
 
-    def get_sideup(self):
+    def get_sideup(self): #accesor // set=mutator
             return self.sideup
