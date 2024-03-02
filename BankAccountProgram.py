@@ -8,11 +8,11 @@ def main():
    start_bal = float(input('Enter your starting balance: '))
 
    # Create a BankAccount object.
-   savings = bc.BankAccount(start_bal)
+   savings = bc.BankAccount(start_bal) #
 
    # Deposit the user's paycheck.
    pay = float(input('How much were you paid this week? '))
-   print('I will deposit that into your account.')
+   #print('I will deposit that into your account.')
    savings.deposit(pay)
 
    # Display the balance.
